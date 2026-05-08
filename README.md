@@ -2,7 +2,13 @@
 
 A small web app that turns a property address into a transparent budgetary roof-area estimate, quote-ready line items, a PDF report, and a shareable report page.
 
-## Quick start
+## Live demo
+
+https://roof-measure-report.fly.dev
+
+Use this link for judging/demo access. Generated report pages and PDFs are shareable from the app.
+
+## Quick start locally
 
 ```bash
 npm install
