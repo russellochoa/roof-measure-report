@@ -1,5 +1,5 @@
 # Change `app` to your Fly app name if different.
-app = "roof-estimate-report"
+app = "roof-measure-report"
 primary_region = "sea"
 
 [build]
@@ -9,7 +9,7 @@ primary_region = "sea"
   NODE_ENV = "production"
   PORT = "3030"
   # Set this in Fly secrets/env after deploy if your app name differs:
-  # PUBLIC_BASE_URL = "https://roof-estimate-report.fly.dev"
+  # PUBLIC_BASE_URL = "https://roof-measure-report.fly.dev"
 
 [http_service]
   internal_port = 3030
