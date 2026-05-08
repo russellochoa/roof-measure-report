@@ -1,0 +1,47 @@
+[
+  {
+    "address": "3561 E 102nd Ct",
+    "estimatedRoofSqft": 2690,
+    "materialSquares": 31,
+    "estimatedTotal": 27141,
+    "confidence": "Low",
+    "uncertaintyBand": "±25–40%",
+    "pdf": "sample-output/sample-1.pdf"
+  },
+  {
+    "address": "1612 S Canton Ave, Springfield, MO 65802",
+    "estimatedRoofSqft": 2555,
+    "materialSquares": 29,
+    "estimatedTotal": 25512,
+    "confidence": "Low",
+    "uncertaintyBand": "±25–40%",
+    "pdf": "sample-output/sample-2.pdf"
+  },
+  {
+    "address": "6310 Laguna Bay Court, Houston, TX 77041",
+    "estimatedRoofSqft": 2865,
+    "materialSquares": 33,
+    "estimatedTotal": 28896,
+    "confidence": "Low",
+    "uncertaintyBand": "±25–40%",
+    "pdf": "sample-output/sample-3.pdf"
+  },
+  {
+    "address": "3820 E Rosebrier St, Springfield, MO 65809",
+    "estimatedRoofSqft": 2985,
+    "materialSquares": 34,
+    "estimatedTotal": 29877,
+    "confidence": "Low",
+    "uncertaintyBand": "±25–40%",
+    "pdf": "sample-output/sample-4.pdf"
+  },
+  {
+    "address": "1261 20th Street, Newport News, VA 23607",
+    "estimatedRoofSqft": 2323,
+    "materialSquares": 27,
+    "estimatedTotal": 23574,
+    "confidence": "Low",
+    "uncertaintyBand": "±25–40%",
+    "pdf": "sample-output/sample-5.pdf"
+  }
+]

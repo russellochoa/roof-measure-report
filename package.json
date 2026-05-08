@@ -1,0 +1,27 @@
+{
+  "name": "roof-measure-report",
+  "version": "1.0.0",
+  "description": "Address-to-roof-estimate MVP with PDF reports and shareable links",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "smoke": "node scripts/smoke.js",
+    "samples": "node scripts/generate-samples.js"
+  },
+  "keywords": [
+    "roofing",
+    "estimates",
+    "pdf",
+    "hackathon"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nanoid": "^5.1.6",
+    "pdfkit": "^0.17.2",
+    "slugify": "^1.6.6"
+  }
+}

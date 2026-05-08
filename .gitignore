@@ -1,0 +1,11 @@
+node_modules/
+.env
+.DS_Store
+npm-debug.log*
+
+# Generated runtime artifacts
+# Keep folders via .gitkeep, but don't commit generated reports/data.
+data/*.json
+reports/*.pdf
+
+!.gitkeep

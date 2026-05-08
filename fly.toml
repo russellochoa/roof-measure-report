@@ -1,0 +1,25 @@
+# Change `app` to your Fly app name if different.
+app = "roof-estimate-report"
+primary_region = "sea"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  NODE_ENV = "production"
+  PORT = "3030"
+  # Set this in Fly secrets/env after deploy if your app name differs:
+  # PUBLIC_BASE_URL = "https://roof-estimate-report.fly.dev"
+
+[http_service]
+  internal_port = 3030
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+[[vm]]
+  memory = "512mb"
+  cpu_kind = "shared"
+  cpus = 1

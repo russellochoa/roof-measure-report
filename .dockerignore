@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+.env
+.DS_Store
+
+# Local/generated runtime files
+reports/*.pdf
+data/*.json
+
+# Optional generated samples; remove this line if you want sample PDFs inside the deployed image
+sample-output

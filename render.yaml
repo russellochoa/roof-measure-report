@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: roof-estimate-report
+    runtime: node
+    plan: free
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      # Optional: set this after deploy to your Render URL so PDFs include the public share link.
+      # - key: PUBLIC_BASE_URL
+      #   value: https://your-service.onrender.com
